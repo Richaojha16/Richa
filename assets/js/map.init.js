@@ -42,7 +42,7 @@ function init() {
     var infoWindow = new google.maps.InfoWindow({
         content: 
 		'<h1 class="popover-map-title">vCard</h1>'+
-		'<div class="popover-map-caption">756 Livingston Street, Brooklyn, NY 11201</div>'
+		'<div class="popover-map-caption">Bommanahalli, Bangalore.</div>'
     });
 				
 	// Opens the InfoWindow when marker is clicked.
