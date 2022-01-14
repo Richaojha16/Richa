@@ -1,70 +1,3 @@
-/* ------------------------------------------------
- Author: ArtStyles (Art)
- 
- Template Name: vCard
- version: 1.0.2
------------------------------------------------- */
-/* ------------------------------------------------
-
- - General Styles
-   - Background
-   - Input Text
-   - Checkbox
-   - Select
-   - Button
-   - Dropdown
-   
- - Typography
- - Preloader
- 
- - Menu
-   - Hamburger
-   - Nav
-   
- - Shared
-   - Container
-   - Box
-   - Overlay
-   - Avatars
-   - Social
-   - Badges
-   - Tooltips
-   
- - Sidebar
-   - Contact list
-   
- - Cases
-
- - Testimonials
-   - Carousel pagination
-   
- - Clients
- - Timeline
- - Progress
- 
- - Portfolio
-   - Filter
-    
- - News
- 
- - Single post
-   - Comments
-   - Comment form
-   - Emoji
-   - Scroll Indicator
-   - niceScroll
-   - Social auth
-  
- - Footer
- 
- - Contact
-   - Map
-   
- - Other
-   - Bact to top
-   - Medium Zoom
-  
------------------------------------------------- */
 @import url(bootstrap.min.css);
 @import url(swiper.min.css);
 @import url("https://fonts.googleapis.com/css?family=Archivo:400,400i,500,500i,600,600i,700,700i&amp;display=swap");
@@ -120,7 +53,6 @@
 .icon__skype {
   background-image: url(../icons/icon-skype.svg);
 }
-
 /* -----------------------------------------------------------------
     - General Styles
 ----------------------------------------------------------------- */
@@ -1872,6 +1804,8 @@ iframe {
 .gallery-grid__item {
   margin-bottom: 1.3rem;
   width: calc(33% - 17.5px);
+  box-shadow: 0 30px 40px rgba(0,0,0,.1);
+  border-radius: 25px;
 }
 @media only screen and (max-width: 992px) {
   .gallery-grid__item {
