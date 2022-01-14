@@ -71,18 +71,17 @@ $(document).ready(function() {
     -------------------------------------------------------------------*/
 
     $('.hamburger').on('click', function() {
-        $(this).toggleClass('is-active');
+        $('.hamburger').toggleClass('is-active');
 	    $('.inner-menu').toggleClass('is-active');
 		$('body').toggleClass('open-menu');
     });
-	
 	
     /*-----------------------------------------------------------------
       Nav
     -------------------------------------------------------------------*/
   
     var $sideNavOpen = $('.hamburger');
-    var tl = new TimelineMax({paused:true, reversed:true});
+    var tl = new TimelineMax({paused:false, reversed:false});
 
     if (window.matchMedia("(max-width: 580px)").matches) {
         $('.js-menu').each(function(i) {
