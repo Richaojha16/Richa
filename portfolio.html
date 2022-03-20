@@ -96,6 +96,8 @@
 							<ul class="filter">
 								<li class="filter__item">Category</li>
 								<li class="filter__item"><a class="filter__link" href="#filter"
+									onclick="filterSelection('uxwriting')">UX Writing</a></li>
+								<li class="filter__item"><a class="filter__link" href="#filter"
 										onclick="filterSelection('casestudies')">Case Studies</a></li>
 								<li class="filter__item"><a class="filter__link" href="#filter"
 										onclick="filterSelection('websites')">Websites</a></li>
@@ -113,6 +115,103 @@
 
 						<!-- Portfolio -->
 						<div class="news-grid pb-0">
+							<!--ux writing-->
+							<article class="news-item box uxwriting">
+								<div class="news-item__image-wrap overlay overlay--45">
+									<div class="news-item__date"></div>
+									<a class="news-item__link"
+										href="assets/img/uxwriting/empty_state_home.png"
+										target="_blank"></a>
+									<img class="cover lazyload" src="assets/img/uxwriting/empty_state_home.png" alt="" />
+								</div>
+								<div class="news-item__caption">
+									<h2 class="title title--h4">Empty state home</h2>
+								</div>
+							</article>
+							<article class="news-item box uxwriting">
+								<div class="news-item__image-wrap overlay overlay--45">
+									<div class="news-item__date"></div>
+									<a class="news-item__link"
+										href="assets/img/uxwriting/empty_state_list.png"
+										target="_blank"></a>
+									<img class="cover lazyload" src="assets/img/uxwriting/empty_state_list.png" alt="" />
+								</div>
+								<div class="news-item__caption">
+									<h2 class="title title--h4">Empty state list</h2>
+								</div>
+							</article>
+							<article class="news-item box uxwriting">
+								<div class="news-item__image-wrap overlay overlay--45">
+									<div class="news-item__date"></div>
+									<a class="news-item__link"
+										href="assets/img/uxwriting/empty_state_filter.png"
+										target="_blank"></a>
+									<img class="cover lazyload" src="assets/img/uxwriting/empty_state_filter.png" alt="" />
+								</div>
+								<div class="news-item__caption">
+									<h2 class="title title--h4">Empty state filter</h2>
+								</div>
+							</article>
+							<article class="news-item box uxwriting">
+								<div class="news-item__image-wrap overlay overlay--45">
+									<div class="news-item__date"></div>
+									<a class="news-item__link"
+										href="assets/img/uxwriting/empty_state_create.png"
+										target="_blank"></a>
+									<img class="cover lazyload" src="assets/img/uxwriting/empty_state_create.png" alt="" />
+								</div>
+								<div class="news-item__caption">
+									<h2 class="title title--h4">Empty state create</h2>
+								</div>
+							</article>
+							<article class="news-item box uxwriting">
+								<div class="news-item__image-wrap overlay overlay--45">
+									<div class="news-item__date"></div>
+									<a class="news-item__link"
+										href="assets/img/uxwriting/error_message_inline.png"
+										target="_blank"></a>
+									<img class="cover lazyload" src="assets/img/uxwriting/error_message_inline.png" alt="" />
+								</div>
+								<div class="news-item__caption">
+									<h2 class="title title--h4">Inline Error Message</h2>
+								</div>
+							</article>
+							<article class="news-item box uxwriting">
+								<div class="news-item__image-wrap overlay overlay--45">
+									<div class="news-item__date"></div>
+									<a class="news-item__link"
+										href="assets/img/uxwriting/inline_feedback.png"
+										target="_blank"></a>
+									<img class="cover lazyload" src="assets/img/uxwriting/inline_feedback.png" alt="" />
+								</div>
+								<div class="news-item__caption">
+									<h2 class="title title--h4">Inline feedback</h2>
+								</div>
+								</article>
+								<article class="news-item box uxwriting">
+									<div class="news-item__image-wrap overlay overlay--45">
+										<div class="news-item__date"></div>
+										<a class="news-item__link"
+											href="assets/img/uxwriting/confirmation_message.png"
+											target="_blank"></a>
+										<img class="cover lazyload" src="assets/img/uxwriting/confirmation_message.png" alt="" />
+									</div>
+									<div class="news-item__caption">
+										<h2 class="title title--h4">Confirmation message</h2>
+									</div>
+								</article>
+								<article class="news-item box uxwriting">
+									<div class="news-item__image-wrap overlay overlay--45">
+										<div class="news-item__date"></div>
+										<a class="news-item__link"
+											href="assets/img/uxwriting/toast_notification.png"
+											target="_blank"></a>
+										<img class="cover lazyload" src="assets/img/uxwriting/toast_notification.png" alt="" />
+									</div>
+									<div class="news-item__caption">
+										<h2 class="title title--h4">Toast notification</h2>
+									</div>
+								</article>
 							<!--case studies-->
 							<article class="news-item box casestudies">
 								<div class="news-item__image-wrap overlay overlay--45">
@@ -387,7 +486,7 @@
 		$(document).ready(setTimeout(()=>{
 			$('.filter__item').eq(1).toggleClass("active");
 		},1000));
-		filterSelection("casestudies");
+		filterSelection("uxwriting");
 		function filterSelection(c) {
 			var x, i;
 			x = document.getElementsByClassName("news-item");

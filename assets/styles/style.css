@@ -699,6 +699,7 @@ iframe {
     font-family: 'object-fit: cover; object-position: center;';
     height: 100%;
     width: 88%;
+    margin: 2%;
 }
 
 ::-moz-selection {
